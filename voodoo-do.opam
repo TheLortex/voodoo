@@ -10,10 +10,13 @@ homepage: "https://github.com/jonludlam/voodoo"
 bug-reports: "https://github.com/jonludlam/voodoo/issues"
 depends: [
   "dune" {>= "2.8"}
+  "tyxml"
+  "tyxml-ppx"
+  "odoc"
+  "opam-format"
   "voodoo-lib"
   "astring"
   "cmdliner"
-  "odoc" {with-doc}
 ]
 build: [
   ["dune" "subst"] {dev}

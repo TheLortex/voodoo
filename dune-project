@@ -35,6 +35,10 @@
  (synopsis "Voodoo compilation step")
  (description "Voodoo compilation step")
  (depends
+   tyxml
+   tyxml-ppx
+   odoc
+   opam-format
    voodoo-lib
    astring
    cmdliner))
